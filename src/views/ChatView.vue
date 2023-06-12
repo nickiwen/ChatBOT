@@ -159,6 +159,27 @@ const stopHandler = () => {
     //     float: left;
     // }
 
+
+    @media screen and (max-width: 768px) {
+        .content .q-info {
+            padding: 30px 5%;
+        }
+
+        .content .a-info {
+            padding: 30px 5%;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .content .q-info {
+            padding: 30px 20%;
+        }
+
+        .content .a-info {
+            padding: 30px 20%;
+        }
+    }
+
     .right {
         float: left;
         // width: 85%; // 侧边栏适配
@@ -205,7 +226,7 @@ const stopHandler = () => {
             }
 
             .q-info {
-                padding: 30px 20%;
+                // padding: 30px 20%;
                 overflow: hidden;
                 clear: both;
 
@@ -228,7 +249,7 @@ const stopHandler = () => {
             }
 
             .a-info {
-                padding: 30px 20%;
+                // padding: 30px 20%;
                 background-color: rgb(68, 70, 84);
                 overflow: hidden;
                 clear: both;
@@ -299,6 +320,7 @@ const stopHandler = () => {
                 color: rgba(255, 255, 255, 1);
             }
         }
+
         .search {
             width: 70%;
             position: absolute;
